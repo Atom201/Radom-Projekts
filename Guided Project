@@ -1,14 +1,2 @@
 #Guided Project
 
-def explore_data_pandas(aaa, start, end):
-  print(f'Number of rows: {len(aaa)}')
-  print(f'NUmber of columns: {len(aaa[0])}')
-  import pandas
-  df = pandas.DataFrame(aaa[start:end])
-  display(df)
-
-!wget http://bioinf-mw.bihz.upwr.edu.pl/students-data/laptops.csv -O laptops.csv
-import csv
-f=open('laptops.csv')
-laptops=csv.reader(f)
-laptops=list(laptops)
